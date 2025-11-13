@@ -19,7 +19,7 @@ html, body{
 
 #logo{
    width: auto;
-   height: 120px;
+   height: 100px;
 }
 
 #opciones_menu {
@@ -37,7 +37,9 @@ html, body{
 }
 
 #contenedor_principal{
+   margin: 0 auto;
    padding: 40px;
+   text-align: center;
    Display:flex;
    flex-direction: column;
    align-items: center;
@@ -45,12 +47,23 @@ html, body{
 }
 
 .tarjetas{
-   padding: 100px 5000px;
+   padding: 100px 500px;
    text-align: center;
    justify-content: center;
+   border-radius: 5px;
 }
 
-#pie_pagina {
+.images{
+   width: 500px;
+   height: 300px;
+}
+
+.titulos-articulos{
+   cursor: pointer;
+}
+
+#pie_pagina
+{
    width: 100%;
    background-color: #f0f0f0; 
    border-top: 1px solid #ccc;  
@@ -59,11 +72,13 @@ html, body{
    color: #333;
 }
 
-#titulo_footer{
+#titulo_footer
+{
    text-align: center;
 }
 
-#desarrolladores {
+#desarrolladores 
+{
    display: flex;
    justify-content: center;
    gap: 70px;

@@ -18,7 +18,7 @@ html, body{
 }
 #logo{
    width: auto;
-   height: 120px;
+   height: 100px;
 }
 #opciones_menu {
    list-style: none;
@@ -105,6 +105,7 @@ main {
 #titulo_footer{
    text-align: center;
 }
+
 #desarrolladores {
    display: flex;
    justify-content: center;
